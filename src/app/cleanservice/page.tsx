@@ -1,6 +1,6 @@
 "use client";
 
-import ImageSliderthree from "../components/ImageSliderthree";
+import ImageSliderthree from "/components/ImageSliderthree";
 
 import React, { useState } from "react";
 import Image from "next/image";
