@@ -1,7 +1,3 @@
-"use client";
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-
 export default function Footer() {
     return (
       <footer className=" text-white text-center  bg-[#F0F0F0]">

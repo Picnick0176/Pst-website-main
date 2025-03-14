@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import TeamSection from "/components/TeamSection";
 
 export default function profile() {
