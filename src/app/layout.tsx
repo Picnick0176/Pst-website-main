@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: "ห่วงใยบ้านท่านเสมือนบ้านของเรา PST HOME SERVICES CO., LTD. ยินดีให้บริการ",
   icons: {
     icon: "/logo.svg", // ไอคอนทั่วไป
-    apple: "/logo.svg", // iOS ต้องใช้ PNG
+    apple: "/logo.png", // iOS ต้องใช้ PNG
   },
   openGraph: {
     title: "PST HOME SERVICES - ดูแลบ้านคุณเสมือนบ้านของเรา",
