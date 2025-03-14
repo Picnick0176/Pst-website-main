@@ -23,7 +23,7 @@ export default function Footer() {
             <div>
               <h3 className="font-bold text-lg">ออฟฟิศ</h3>
               <p className="text-sm mt-2">
-                1/112 ซอยชัยพรพล ถนนรามอินทรา แขวงคันนายาว <br /> กรุงเทพ 10220
+              1/112 ซอยวัชรพล ถนนรามอินทรา แขวงออเงิน เขตสายไหม กรุงเทพ 10220
               </p>
               <p className="text-sm mt-2">⏰ เปิดบริการทุกวัน 8:30-17:30 น.</p>
             </div>
