@@ -11,7 +11,7 @@ const images = [
   "/work/691613.jpg", // แนวนอน
   "/work/691590.jpg", // แนวนอน
 ];
-export default function useCleanService() {
+export default function CleanService() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
