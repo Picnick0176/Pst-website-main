@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-
+import Image from "next/image";
 const images = [
     "/work/687237_0.jpg",
     "/work/687235_0.jpg",
@@ -23,7 +23,7 @@ export default function Slideshow() {
     return (
         <div className="mx-auto px-10">
             {loaded && images[index] ? (
-                <img
+                <Image
                     className="mx-auto  my-5 rounded-md w-[500px]"
                     src={images[index]}
                     alt="Slideshow"

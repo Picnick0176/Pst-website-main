@@ -6,13 +6,15 @@ import TeamSection from "@/components/TeamSection";
 export default function Profile() {
 
   useEffect(() => {
-    const handleContextMenu = (event) => {
+    const handleContextMenu = (event: MouseEvent) => {
       event.preventDefault();
     };
-    
+
+    // Add the event listener for the context menu
     document.addEventListener("contextmenu", handleContextMenu);
-    
+
     return () => {
+      // Clean up the event listener
       document.removeEventListener("contextmenu", handleContextMenu);
     };
   }, []);

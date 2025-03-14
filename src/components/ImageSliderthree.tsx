@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay'; // Import autoplay styles
-
+import Image from "next/image";
 // Import custom styles (optional)
 import '/styles.css';
 
@@ -32,7 +32,7 @@ export default function SwiperComponent() {
     >
       {images.map((src, index) => (
         <SwiperSlide key={index}>
-          <img src={src} alt={`image-${index}`} className="w-full h-auto object-contain" />
+          <Image src={src} alt={`image-${index}`} className="w-full h-auto object-contain" />
         </SwiperSlide>
       ))}
     </Swiper>

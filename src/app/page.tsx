@@ -10,16 +10,17 @@ import Pipelaying from "@/components/Pipelaying";
 
 export default function Home() {
   useEffect(() => {
-    const handleContextMenu = (event) => {
+    const handleContextMenu = (event: MouseEvent) => {
       event.preventDefault();
     };
-
+  
     document.addEventListener("contextmenu", handleContextMenu);
-
+  
     return () => {
       document.removeEventListener("contextmenu", handleContextMenu);
     };
   }, []);
+  
 
   return (
     <div className="justify-center items-center text-center">

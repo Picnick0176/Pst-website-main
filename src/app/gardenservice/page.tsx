@@ -13,7 +13,7 @@ const images = [
 ];
 
 export default function Gardenservice() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
     <>
