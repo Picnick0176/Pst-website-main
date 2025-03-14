@@ -18,10 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "บริการ PST HOME SERVICES CO., LTD.",
   description: "ห่วงใยบ้านท่านเสมือนบ้านของเรา PST HOME SERVICES CO., LTD. ยินดีให้บริการ",
-  icons: {
-    icon: "/logo.svg", // ไอคอนทั่วไป
-    apple: "/logo.png", // iOS ต้องใช้ PNG
-  },
+
   openGraph: {
     title: "PST HOME SERVICES - ดูแลบ้านคุณเสมือนบ้านของเรา",
     description:
@@ -37,7 +34,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  
+
 };
 
 export default function RootLayout({
@@ -48,9 +45,21 @@ export default function RootLayout({
   return (
     <html lang="th">
       <head>
-      <link rel="apple-touch-icon" href="/logo.png"/>
-
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          href="/icon.png"
+          type="image/png"
+          sizes="32x32"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/apple-icon.png"
+          type="image/png"
+          sizes="180x180"
+        />
       </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
