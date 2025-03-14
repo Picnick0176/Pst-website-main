@@ -15,7 +15,7 @@ export default function Admin() {
                 <Image  src="/admin.svg" alt="" width={100} height={100} quality={100} />
             </button>
             {showList && (
-                <div id="contectlist" className="absolute bottom-[100%] flex flex-col items-center gap-2 bg-white p-2 rounded-lg shadow-lg">
+                <div id="contectlist" className="absolute bottom-[100%] right-[30%] flex flex-col items-center gap-2 bg-white p-2 rounded-lg shadow-lg">
                     <Link href="https://lin.ee/8V7MPcG" className="flex gap-3 items-center">
                         <Image className="w-[2rem]" src="/line.svg" alt="" width={100} height={100} />
                     </Link>
