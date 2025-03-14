@@ -2,11 +2,11 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Buttonabout from "/components/Buttonabout";
-import ImageSlider from "/components/ImageSlider";
-import ImageSlidershow from "/components/ImageSlidershow";
-import ServiceHighlight from "/components/ServiceHighlight";
-import Pipelaying from "/components/Pipelaying";
+import Buttonabout from "@/components/Buttonabout";
+import ImageSlider from "@/components/ImageSlider";
+import ImageSlidershow from "@/components/ImageSlidershow";
+import ServiceHighlight from "@/components/ServiceHighlight";
+import Pipelaying from "@/components/Pipelaying";
 
 export default function Home() {
   useEffect(() => {

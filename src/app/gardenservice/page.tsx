@@ -1,5 +1,5 @@
 "use client";
-import ImageSlidertwo from "/components/ImageSlidertwo";
+import ImageSlidertwo from "@/components/ImageSlidertwo";
 import React, { useState } from "react";
 import Image from "next/image";
 
