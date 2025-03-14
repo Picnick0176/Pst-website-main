@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PST HOME SERVICES - ดูแลบ้านคุณเสมือนบ้านของเรา",
     description:
-      "บริการทำความสะอาด ดูแลบ้าน ซ่อมแซม และปรับปรุงบ้านแบบครบวงจร",
+      "บริการกำจัดปลวก แมลง หนู ยุ่ง และบริการดูแลสวน บริการทำความสะอาดในหน่อยงานต่างๆ",
     url: "http://www.psthomeservice.com",
     type: "website",
     images: [
