@@ -16,7 +16,7 @@ export default function Footer() {
             <div>
               <h3 className="font-bold text-lg">ติดต่อเรา</h3>
               <p className="text-sm mt-2">📞 (02)998-3036 | (02)998-3063</p>
-              <p className="text-sm mt-2">📧 pst_homeservice@hotmail.com</p>
+              <p className="text-sm mt-2">📧 psthomeservice.th@gmail.com</p>
             </div>
   
             {/* ออฟฟิศ */}

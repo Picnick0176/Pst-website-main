@@ -53,18 +53,18 @@ export default function Contactpage() {
               <p >@847rfmfk</p>
             </div>
           </Link>
-          <Link href="/" className="flex gap-3 items-center">
+          <Link href="https://www.facebook.com/profile.php?id=61574275192661" className="flex gap-3 items-center">
             <Image className="w-[3rem]" src="/fb.svg" alt="" width={100} height={100} />
             <div className="flex flex-col text-[1rem] text-left">
               <p >facebook</p>
               <p className="text-[0.8rem]" >พีเอสที โฮมเซอร์วิส บริการกำจัดปลวก </p>
             </div>
           </Link>
-          <Link href="mailto:pst_homeservice@hotmail.com" className="flex gap-3 items-center">
+          <Link href="mailto:psthomeservice.th@gmail.com" className="flex gap-3 items-center">
             <Image className="w-[3rem]" src="/email.svg" alt="" width={100} height={100} />
             <div className="flex flex-col text-[1rem] text-left">
               <p >Email</p>
-              <p >pst_homeservice@hotmail.com</p>
+              <p >psthomeservice.th@gmail.com</p>
             </div>
           </Link>
         </div>
