@@ -12,7 +12,7 @@ export default function Admin() {
                 onClick={() => setShowList(!showList)}
                 className="transition-transform duration-200 hover:scale-110"
             >
-                <Image  src="/Admin.svg" alt="" width={100} height={100} quality={100} />
+                <Image  src="/admin.svg" alt="" width={100} height={100} quality={100} />
             </button>
             {showList && (
                 <div id="contectlist" className="absolute bottom-[100%] flex flex-col items-center gap-2 bg-white p-2 rounded-lg shadow-lg">
