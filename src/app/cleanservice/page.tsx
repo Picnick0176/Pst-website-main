@@ -12,7 +12,7 @@ const images = [
   "/work/691590.jpg", // แนวนอน
 ];
 
-export default function cleanservice() {
+export default function Cleanservice() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (

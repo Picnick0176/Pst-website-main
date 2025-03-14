@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import TeamSection from "/components/TeamSection";
 
-export default function profile() {
+export default function Profile() {
 
   useEffect(() => {
     const handleContextMenu = (event) => {

@@ -12,7 +12,7 @@ const images = [
   "/work/691533.jpg", // แนวนอน
 ];
 
-export default function gardenservice() {
+export default function Gardenservice() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
