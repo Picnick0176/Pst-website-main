@@ -4,6 +4,7 @@ import Navber from "@/components/Navber";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Contactpage from "@/components/Contactpage";
+import Admin from "@/components/Admin";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -63,6 +64,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Admin/>
         <Navber />
         {children}
         <Contactpage />
