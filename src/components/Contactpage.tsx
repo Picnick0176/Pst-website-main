@@ -46,7 +46,7 @@ export default function Contactpage() {
               <p >(02)998-3036</p>
             </div>
           </Link>
-          <Link href="/" className="flex gap-3 items-center">
+          <Link href="https://lin.ee/8V7MPcG" className="flex gap-3 items-center">
             <Image className="w-[3rem]" src="/line.svg" alt="" width={100} height={100} />
             <div className="flex flex-col text-[1rem] text-left">
               <p >Line</p>

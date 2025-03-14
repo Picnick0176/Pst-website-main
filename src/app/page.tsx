@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="justify-center items-center text-center">
-      <Image className="w-full" src="/Poster.svg" alt="Phone Icon" width={100} height={100} />
+      <Image className="w-full" src="/Poster.png" alt="Phone Icon" width={1000} height={1000} />
       <br />
       <br />
       <section id="servebox" className="flex flex-col justify-center items-center">
