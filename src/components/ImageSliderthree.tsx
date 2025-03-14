@@ -32,7 +32,10 @@ export default function SwiperComponent() {
     >
       {images.map((src, index) => (
         <SwiperSlide key={index}>
-          <Image src={src} alt={`image-${index}`} className="w-full h-auto object-contain" />
+          <Image src={src} alt={`image-${index}`}
+           width={500} // Set the width to an appropriate value
+           height={300} // Set the height to an appropriate value
+           className="w-full h-auto object-contain" />
         </SwiperSlide>
       ))}
     </Swiper>

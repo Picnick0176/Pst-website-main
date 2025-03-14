@@ -36,7 +36,7 @@ const teamMembers = [
 
 export default function TeamSection() {
     return (
-        <div className="grid grid-cols-2 lg:grid-cols-3 md:grid-cols-2 gap-6 p-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 p-5">
             {teamMembers.map((member, index) => (
                 <div key={index} className="bg-[#F4F4F4] rounded-xl flex flex-row gap-6 p-5 shadow-lg">
                     <div className="bg-white rounded-xl overflow-hidden flex-shrink-0">

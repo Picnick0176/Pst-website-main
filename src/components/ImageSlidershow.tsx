@@ -27,6 +27,8 @@ export default function Slideshow() {
                     className="mx-auto  my-5 rounded-md w-[500px]"
                     src={images[index]}
                     alt="Slideshow"
+                    width={500} // Set the width to an appropriate value
+                    height={300} // Set the height to an appropriate value
                 />
 
             ) : (
