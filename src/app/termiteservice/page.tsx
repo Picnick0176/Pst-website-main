@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import ImageSlider from "/components/ImageSlider";
+import ImageSlider from "../components/ImageSlider";
 
 const images = [
     "/work/6872460.jpg", // แนวตั้ง
