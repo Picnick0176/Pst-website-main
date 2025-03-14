@@ -36,7 +36,7 @@ export default function Gardenservice() {
                     </h1>
                     <li className="text-sm md:text-xl w-[20rem] md:w-[40rem] lg:w-[30rem] xl:w-[50rem]">
                     
-                        เราให้บริการกับหน่วยงานรัฐและราชการมากกว่า <strong>30</strong> แห่งมีคนงานสวนมากกว่า <strong>100คน</strong>
+                        เราให้บริการกับหน่วยงานรัฐและราชการมากกว่า <strong>30</strong> 
                        
                     </li>
 
