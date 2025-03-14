@@ -36,7 +36,7 @@ export default function Gardenservice() {
                     </h1>
                     <li className="text-sm md:text-xl w-[20rem] md:w-[40rem] lg:w-[30rem] xl:w-[50rem]">
                     
-                        เราให้บริการกับหน่วยงานรัฐและราชการมากกว่า <strong>30</strong> 
+                    บริษัทรับบริการดูแลสวนสาธารณะของกรุงเทพมหานครและสวนสาธารณะในหน่วยงานราชการและ รัฐวิสาหกิจต่างๆ
                        
                     </li>
 
