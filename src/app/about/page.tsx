@@ -2,10 +2,6 @@ import Image from "next/image";
 
 
 
-export const metadata = {
-  title: "About P.S.T HOME SERVICES",
-  description: "ห่วงใยบ้านท่านเสมือนบ้านของเรา PST HOME SERVICES CO .,LTD. บริการให้คำปรึกษาฟรี",
-};
 
 
 export default function about() {
