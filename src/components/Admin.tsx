@@ -7,7 +7,7 @@ export default function Admin() {
     const [showList, setShowList] = useState(false);
 
     return (
-        <div className="fixed bottom-2 right-2 flex flex-col items-center z-100">
+        <div className="hidden sm:block fixed bottom-1 right-1 flex flex-col items-center z-100">
             <button
                 onClick={() => setShowList(!showList)}
                 className="transition-transform duration-200 hover:scale-110"
