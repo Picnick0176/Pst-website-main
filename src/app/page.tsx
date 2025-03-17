@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className="justify-center items-center text-center">
-      <Image className="w-full" src="/Poster.png" alt="Phone Icon" width={1000} height={1000} />
+      <Image className="w-full" src="/Poster.svg" alt="Phone Icon" width={1000} height={1000} />
       <br />
       <br />
       <section id="servebox" className="flex flex-col justify-center items-center">
@@ -50,7 +50,7 @@ export default function Home() {
           <p className="text-[#FF0000]">20 ปี</p>
         </h1>
         <p className="text-[0.7rem] md:text-[1rem]">
-          โดยช่างผู้ชำนาญการ จบจากมหาวิทยาลัยเกษตรศาสตร์
+          โดยช่างผู้ชำนาญการ
         </p>
         <br />
         <div className="relative flex flex-col p-10 w-full bg-[#0D98FF] my-10 text-center">
@@ -129,7 +129,7 @@ export default function Home() {
             <br />
             <div className="text-[#000]">
               <p className="text-md font-bold">ปริญญาตรี:</p>
-              <p className="text-md">ภาควิชากีฏวิทยา มหาวิทยาลัยเกษตรศาสตร์</p>
+              <p className="text-md">ภาควิชากีฏวิทยา คณะเกษตร มหาวิทยาลัยเกษตรศาสตร์(KU43)</p>
               <p className="text-md font-bold">ปริญญาโท:</p>
               <p className="text-md">MBA บริหารธุรกิจ มหาวิทยาลัยเกษตรศาสตร์</p>
               <p className="text-md font-bold">ปัจจุบัน:</p>

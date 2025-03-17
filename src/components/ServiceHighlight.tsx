@@ -7,7 +7,7 @@ const ServiceHighlight = () => {
       <ul className="space-y-2 text-left">
         <li className="flex items-center"><span className="text-green-500 mr-2">✅</span>ใช้สารเคมีที่มีมาตรฐานและปลอดภัย</li>
         <li className="flex items-center"><span className="text-green-500 mr-2">✅</span>มีทีมงานมืออาชีพที่ผ่านการฝึกอบรม</li>
-        <li className="flex items-center"><span className="text-green-500 mr-2">✅</span>ให้บริการตามแผนงานที่กำหนดและตรวจสอบผลลัพธ์ทุกสัปดาห์</li>
+        <li className="flex items-center"><span className="text-green-500 mr-2">✅</span>ให้บริการตามแผนงานที่กำหนดและตรวจสอบผลลัพธ์ทุก 2 เดือน</li>
         <li className="flex items-center"><span className="text-green-500 mr-2">✅</span>รับประกันความพึงพอใจ และให้บริการแก้ไขปัญหาทันทีหากพบปลวกหรือหนูในอาคารอีก</li>
       </ul>
       <p className="mt-4 text-gray-700 text-left">

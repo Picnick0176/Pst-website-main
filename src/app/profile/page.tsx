@@ -53,7 +53,7 @@ export default function Profile() {
     <br />
     <div className="text-[#000]">
       <p className="text-md font-bold">ปริญญาตรี:</p>
-      <p className="text-md">ภาควิชากีฏวิทยา มหาวิทยาลัยเกษตรศาสตร์</p>
+      <p className="text-md">ภาควิชากีฏวิทยา คณะเกษตร มหาวิทยาลัยเกษตรศาสตร์(KU43)</p>
       <p className="text-md font-bold">ปริญญาโท:</p>
       <p className="text-md">MBA บริหารธุรกิจ มหาวิทยาลัยเกษตรศาสตร์</p>
       <p className="text-md font-bold">ปัจจุบัน:</p>
@@ -62,7 +62,7 @@ export default function Profile() {
   </div>
 </div>
 
-      <h1 className="text-black text-[1rem] md:text-[2rem] font-bold text-center m-5">รองกรรมการผู้จัดการ</h1>
+      <h1 className="text-black text-[1rem] md:text-[2rem] font-bold text-center m-5">ผู้ช่วยผู้จัดการ</h1>
       <div className=" max-w-xl md:mx-auto bg-[#F4F4F4] rounded-xl flex flex-col md:flex-row justify-center items-center gap-5 p-3  m-10">
         <div className="max-w-[200px] max-h-[200px] w-full h-auto bg-white p-2 rounded-xl">
           <Image
@@ -76,11 +76,11 @@ export default function Profile() {
         <div className="text-left my-1 md:my-10">
           <h1 className="text-black text-[1rem] md:text-[2rem] font-bold">นางสุวิภา เกิดสมบูรณ์</h1>
           <p className="text-[#FF0000] text-[0.9rem] md:text-[1.2rem] font-bold">
-            รองกรรมการผู้จัดการ
+            ผู้ช่วยผู้จัดการ
           </p>
         </div>
       </div>
-      <h1 className="text-black text-[1rem] md:text-[2rem] font-bold text-center m-5">บุคลากร</h1>
+      <h1 className="text-black text-[1rem] md:text-[2rem] font-bold text-center m-5">บุคลากร(แผนกกำจัดแมลง)</h1>
 
       <TeamSection />
 

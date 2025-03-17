@@ -38,12 +38,12 @@ export default function Contactpage() {
             quality={100}
           />
         </div>
-        <div className="w-[20rem] md:w-[50rem] lg:w-[70rem] grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4   gap-2 md:gap-10  mx-auto m-4">
+        <div className="w-[20rem] md:w-[50rem] lg:w-[80rem] grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4   gap-2 md:gap-10  mx-auto m-4">
           <Link href="tel:+662998-3036" className="flex gap-3 items-center">
             <Image className="w-[3rem]" src="/tel.svg" alt="" width={100} height={100} />
             <div className="flex flex-col text-[1rem] text-left">
               <p >ติดต่อสอบถาม</p>
-              <p >(02)998-3036</p>
+              <p >(02)998-3036 | (02)998-3036</p>
             </div>
           </Link>
           <Link href="https://lin.ee/8V7MPcG" className="flex gap-3 items-center">
