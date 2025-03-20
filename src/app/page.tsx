@@ -99,6 +99,7 @@ export default function Home() {
             <hr className="my-3 border-[#0D98FF] w-40" />
             <h1 className="text-[2.5rem] font-bold text-black">
               สำรวจพื้นที่ <span className="text-red-600">ฟรี!!!</span>
+              <p className="text-[1.5rem] text-red-600">ราคาเริ่มต้น 5000.-</p>
             </h1>
             <Buttonabout />
           </div>
