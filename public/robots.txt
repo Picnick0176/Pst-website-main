@@ -1,0 +1,9 @@
+User-agent: *
+Disallowallow: /about
+Disallowallow: /cleanservice
+Disallowallow: /custom
+Disallowallow: /gardenservice
+Disallowallow: /profile
+Disallowallow: /termiteservice
+Allow: /
+Sitemap: https://www.psthomeservice.com
