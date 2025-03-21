@@ -5,6 +5,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Contactpage from "@/components/Contactpage";
 import Admin from "@/components/Admin";
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,9 +47,28 @@ export default function RootLayout({
   return (
     <html lang="th">
       <head>
-      <meta name="google-site-verification" content="KS4wHg1wU8ZHk0cW5jGW3OqG3b33d-Km82xqEL_Y-bU" />
-      <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" property="og:keywords"/>
-      <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" name="keywords"/>
+        <meta name="google-site-verification" content="KS4wHg1wU8ZHk0cW5jGW3OqG3b33d-Km82xqEL_Y-bU" />
+        <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" property="og:keywords" />
+        <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" name="keywords" />
+             {/* Google Analytics */}
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-CFLMWF5W7C"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CFLMWF5W7C', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="icon"
@@ -67,7 +87,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Admin/>
+        <Admin />
         <Navber />
         {children}
         <Contactpage />
