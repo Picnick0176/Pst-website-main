@@ -47,6 +47,8 @@ export default function RootLayout({
     <html lang="th">
       <head>
       <meta name="google-site-verification" content="KS4wHg1wU8ZHk0cW5jGW3OqG3b33d-Km82xqEL_Y-bU" />
+      <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" property="og:keywords"/>
+      <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" name="keywords"/>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="icon"
