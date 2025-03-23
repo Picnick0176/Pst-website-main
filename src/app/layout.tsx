@@ -50,6 +50,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="KS4wHg1wU8ZHk0cW5jGW3OqG3b33d-Km82xqEL_Y-bU" />
         <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" property="og:keywords" />
         <meta content="ปลวก,กำจัดปลวก,วิธีกําจัดปลวกถาวร,ฉีดปลวก,กําจัดปลวกใกล้ฉัน,พีเอสที,กำจัดปลวกสายไหม,กำจัดปลวกรามอินทราม,ยาฆ่าปลวก" name="keywords" />
+        <meta name="keywords" content="กำจัดปลวก, วิธีกําจัดปลวกถาวร, ฉีดปลวก, กําจัดปลวกใกล้ฉัน, กำจัดปลวกสายไหม, กำจัดปลวกรามอินทรา, ยาฆ่าปลวก, บริการกำจัดปลวก"/>
              {/* Google Analytics */}
       <Script
         strategy="afterInteractive"
