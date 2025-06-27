@@ -1,9 +1,6 @@
 import Image from "next/image";
-
-
-
-
-
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 export default function about() {
   return (
     <div >
@@ -16,7 +13,7 @@ export default function about() {
       </header>
 
       <div className="max-w-4xl md:mx-auto p-10 text-left bg-[#F4F4F4] rounded-[2rem] m-10 px-4 sm:px-10 flex flex-col gap-2">
-        <h1 className=" text-[1.5rem] text-center text-[#FF0000] font-[1000]">
+        <h1  className=" text-[1.5rem] text-center text-[#FF0000] font-[1000]">
           บ้านท่านมีปลวกหรือไม่ ?
         </h1>
         <h2 className="text-lg font-semibold mb-4">

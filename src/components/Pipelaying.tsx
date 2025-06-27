@@ -1,8 +1,10 @@
 import Image from "next/image";
-
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 type FeatureProps = {
   text: string;
 };
+
 
 export default function ServiceSection() {
   return (
@@ -10,13 +12,13 @@ export default function ServiceSection() {
       <h2 className="text-3xl font-bold">บริการรับวางท่อโดยช่างมืออาชีพ</h2>
       <p className="mt-2 text-black">การป้องกันโดยการวางท่อในกรณีที่สร้างอาคารโดยมีการยกพื้นสูงขึ้น</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 ">
-        <div className="flex flex-col gap-5 ">
+        <div data-aos="fade-up" className="flex flex-col gap-5 ">
           <Feature text="ใช้ท่อ PE ขนาด 20mm" />
           <Feature text="หัวสเปย์ครึ่งวงกลม" />
           <Feature text="ใช้งานได้อย่างมั่นใจ" />
           <Feature text="เข็มขัดอลูมิเนียม" />
         </div>
-        <div className="flex flex-col gap-5">
+        <div data-aos="fade-up" className="flex flex-col gap-5">
           <Feature text="อุปกรณ์คุณภาพสูง" />
           <Feature text="ให้บริการโดยช่างผู้มีประสบการณ์" />
           <Feature text="ให้คำปรึกษาฟรี" />

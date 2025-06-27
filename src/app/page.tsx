@@ -1,4 +1,6 @@
 "use client";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,9 +18,17 @@ export default function Home() {
   
     document.addEventListener("contextmenu", handleContextMenu);
   
+     AOS.init({
+      duration: 300, // ระยะเวลา animation
+      once: true,    // ให้เล่นแค่ครั้งเดียวตอน scroll มาครั้งแรก
+    })
+
     return () => {
       document.removeEventListener("contextmenu", handleContextMenu);
     };
+
+   
+
   }, []);
   
 
@@ -28,11 +38,11 @@ export default function Home() {
       <br />
       <br />
       <section id="servebox" className="flex flex-col justify-center items-center">
-        <h1 className="font-[1000] text-[1rem] md:text-[1.5rem]">
+        <h1 data-aos="fade-up" className="font-[1000] text-[1rem] md:text-[1.5rem]">
           บริการ PST HOME SERVICES CO., LTD.
         </h1>
-        <div className="flex justify-center items-center gap-4 m-5 md:m-10 md:gap-10 flex-col md:flex-row">
-          <Link href="/#contact" className="flex flex-col items-center">
+        <div  className="flex justify-center items-center gap-4 m-5 md:m-10 md:gap-10 flex-col md:flex-row">
+          <Link  href="/#contact" className="flex flex-col items-center">
             <Image className="w-50 md:w-60 hover:opacity-90 hover:cursor-pointer" src="/serve1.svg" alt="server" width={100} height={100} />
           </Link>
           <Link href="/termiteservice" className="flex flex-col items-center">
@@ -66,7 +76,7 @@ export default function Home() {
         </div>
 
         {/* card server */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 my-5">
+        <div  className="grid grid-cols-2 md:grid-cols-4 gap-10 my-5">
           <Link href="/termiteservice" className="flex flex-col items-center">
             <Image className="w-40 md:w-60 hover:opacity-90 hover:cursor-pointer" src="/ant.svg" alt="ant" width={100} height={100} />
             <p className="text-[#0D98FF] font-bold mt-2 text-xl">ปลวก</p>
@@ -87,7 +97,7 @@ export default function Home() {
         <Pipelaying/>
         <div className="mx-10 md:flex md:flex-row gap-15">
           {/* Image Section */}
-          <div className="flex justify-center items-center my-10">
+          <div data-aos="fade-right" className="flex justify-center items-center my-10">
             <Image src="/PST.png" alt="PST" width={500} height={500} />
           </div>
 
@@ -189,8 +199,8 @@ export default function Home() {
         </div>
       </section>
       <br />
-      <section id="customers" className="m-10">
-        <div className="mx-auto">
+      <section   id="customers" className="m-10">
+        <div data-aos="zoom-in-up" className="mx-auto">
           <h1 className="text-[3rem] md:text-[4rem] font-[1000] m-5">
             ลูกค้าของเรา
           </h1>
@@ -210,19 +220,19 @@ export default function Home() {
         <div className="w-full bg-[#F0F0F0] p-10 flex flex-col">
           <h1 className="text-[2rem] font-[1000]">ขั้นตอนการบริการ</h1>
           <div className="w-[20rem] md:w-[30rem] lg:w-[70rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4    gap-3 my-10 mx-auto">
-            <Link href="/" className="bg-[#D9D9D9] px-12 py-5 rounded-2xl flex flex-col items-center">
+            <Link data-aos="fade-right" data-aos-delay="100" href="/" className="bg-[#D9D9D9] px-12 py-5 rounded-2xl flex flex-col items-center">
               <Image className="w-[6rem]" src="/contect.svg" alt="" width={100} height={100} />
               <p className="text-[1rem] font-[900] mt-4">1.ติดต่อ</p>
             </Link>
-            <Link href="/" className="bg-[#D9D9D9] px-14 py-5 rounded-2xl flex flex-col items-center">
+            <Link data-aos="fade-right" data-aos-delay="200" href="/" className="bg-[#D9D9D9] px-14 py-5 rounded-2xl flex flex-col items-center">
               <Image className="w-[6rem]" src="/search.svg" alt="" width={100} height={100} />
               <p className="text-[1rem] font-[900] mt-4">2.สำรวจพื้นที่</p>
             </Link>
-            <Link href="/" className="bg-[#D9D9D9] px-14 py-5 rounded-2xl flex flex-col items-center">
+            <Link data-aos="fade-right" data-aos-delay="300" href="/" className="bg-[#D9D9D9] px-14 py-5 rounded-2xl flex flex-col items-center">
               <Image className="w-[6rem]" src="/home.svg" alt="" width={100} height={100} />
               <p className="text-[1rem] font-[900] mt-4">3.เข้าบริการโดยทีมช่าง</p>
             </Link>
-            <Link href="/" className="bg-[#D9D9D9] px-14 py-5 rounded-2xl flex flex-col items-center">
+            <Link data-aos="fade-right" data-aos-delay="400" href="/" className="bg-[#D9D9D9] px-14 py-5 rounded-2xl flex flex-col items-center">
               <Image className="w-[6rem]" src="/heart.svg" alt="" width={100} height={100} />
               <p className="text-[1rem] font-[900] mt-4">4.ดูแล</p>
             </Link>
