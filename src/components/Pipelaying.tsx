@@ -1,6 +1,4 @@
 import Image from "next/image";
-import 'aos/dist/aos.css';
-import AOS from 'aos';
 type FeatureProps = {
   text: string;
 };

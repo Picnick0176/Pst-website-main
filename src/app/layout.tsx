@@ -6,8 +6,6 @@ import Footer from "@/components/Footer";
 import Contactpage from "@/components/Contactpage";
 import Admin from "@/components/Admin";
 import Script from 'next/script';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
